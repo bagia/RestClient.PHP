@@ -10,7 +10,7 @@ Example
     require_once('RestClient.php');
     
     $client = new RestClient();
-    $result = $client->HTTP('http://www.example.com/my-user-endpoint, 
+    $result = $client->HTTP('http://www.example.com/my-user-endpoint', 
                              array( 'user_id' => '12388822',
                                     'fields' => 'name,age',
                                     'access_token' => 'aeb342cdab33b342cdab5ece335eb342cdabce6cbe' ),
